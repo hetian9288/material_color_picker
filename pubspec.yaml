@@ -1,0 +1,14 @@
+name: material_color_picker
+description: Color picker for Flutter.
+version: 0.0.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  # test: ^0.12.0
+
+flutter:
+  assets:
+    - res/images/placer.png

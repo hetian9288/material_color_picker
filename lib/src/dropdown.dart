@@ -61,6 +61,10 @@ class _WidgetDropdownRoute<T> extends PopupRoute<T> {
   void _dismiss() {
     navigator?.removeRoute(this);
   }
+
+  // TODO: implement barrierLabel
+  @override
+  String get barrierLabel => null;
 }
 
 /// This is an implementation for the [ColorPicker] witch displays a drop down

@@ -12,3 +12,6 @@ dev_dependencies:
 flutter:
   assets:
     - res/images/placer.png
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
